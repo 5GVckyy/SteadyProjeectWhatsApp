@@ -1,13 +1,8 @@
-let handler =  m => m.reply(`
-╭─「 Donasi • Pulsa 」
-│ • Indosat Ooredoo [085713964963]
-│ • Tri [089677134384]
+let handler = async m => m.reply(`
+╭─「 Bot Ini Dibuat Oleh • VCKY 」
 ╰────
-
-╭─「 Donasi • Non Pulsa 」
-│ • Ovo [089677134384]
-│ • Gopay [089677134384]
-│ • Dana [089677134384]
+╭─「 Hubungi 」
+│ > Ingin donasi? Wa.me/6285234077576
 ╰────
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi']
